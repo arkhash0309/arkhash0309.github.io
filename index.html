@@ -1,231 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Portfolio Website- Arkhash</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- linking css file -->
-  <link rel="stylesheet" href="style.css">
-  <!-- bootstrap CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- font awesome -->
-  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
-        <div class="container">
-            <a class="navbar-brand" href="#">Arkhash</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-                
-            </div>
-        </div>
-    </nav>
-	
-    <!-- main banner -->
-    <section class="bgimage" id="home">
-        <div class="container-fluid">
-            <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                <h2 class="hero_title">Hi, it's me Arkhash</h2>
-                <p class="hero_desc">I'm an undergraduate student in Artificial Intelligence and Data Science</p>
-            </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- about section-->
-    <section id="about">
-        <div class="container mt-4 pt-4">
-            <h1 class="text-center">About Me</h1>
-            <div class="row mt-4">
-                <div class="col-lg-4">
-                    <img src="images/profile_pic.jpeg" class= "imageAboutPage" alt="">
-                </div>
-
-                <div class="col-lg-8">
-                    <p>I am Undergraduate student in Artificial Intelligence and Data Science at Informatics Institute of Technology affiliated with Robert Gordon University Aberdeen, Scotland.
-                       I have a great interest in Machine Learning and Deep Learning!
-                    </p>
-                    <div class="row mt-3">
-                        <div class="col-md-6">
-                            <ul>
-                                <li>Name: Aadhavan Arkhash Saravanakumar</li>
-                                <li>Age: 18</li>
-                                <li>Occupation: Undergraduate Student</li>
-
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row mt-3">
-                        <p> With regards to my techstack, I am proficient with Python and Java programming for
-							programming languages. I am skilled in Figma, HTML, CSS and Java Script for front-end
-							development while I prefer to use Amazon AWS for backend development. I usually tend to use
-							R for diagrammatic visualization and data analysis. 
-                        </p>
-                    </div>
-                </div>
-            </div>
-		</div>
-    </section>
-
-
-
-    <!-- portfolio section-->
-    <section id="portfolio">
-        <div class="container mt-3">
-            <h1 class="text-center">Portfolio</h1>
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <img class="card-img-top" src="images/marketWiz.png" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">marketWiz</h4>
-                            <p class="card-text">Sales Prediction website application based on weather prediction.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/VALORLK.png" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">VALORLK</h4>
-                            <p class="card-text">Fitness web application with in-site shopping, recommendations and quiz.</p>
-                            <div class="text-center">
-                                <a href="https://github.com/arkhash0309/VALORLK" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/M-Eng.png" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">M-Eng</h4>
-                            <p class="card-text">Building a knowledge graph on Mechanical Engineering and testing the XML code using SPARQL queries.</p>
-                            <div class="text-center">
-                                <a href="https://github.com/arkhash0309/M-Eng" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/SACMS.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">SACMS</h4>
-                            <p class="card-text">School Activity Club Management System to allow students and advisors to join and view clubs.</p>
-                            <div class="text-center">
-                                <a href="https://github.com/arkhash0309/OOD-Coursework" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/maze.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Maze</h4>
-                            <p class="card-text">A simple maze traversal program with Depth First Search and A* search being performed with the use of Java.</p>
-                            <div class="text-center">
-                                <a href="https://github.com/arkhash0309/Maze" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/error-detect.jpg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">error-detect</h4>
-                            <p class="card-text">Fuzzy Logic-Based Error Detection and Correction for Data Storage.</p>
-                            <div class="text-center">
-                                <a href="https://github.com/arkhash0309/error-detect" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-		</div>
-    </section>
-
-    <!-- contact section-->
-    <section id="contact">
-        <div class="container mt-3 contactContent">
-            <h1 class="text-center">Contact Me</h1>
-
-            <div class="row mt-4">
-                <div class="col-lg-6">
-                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
-                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
-                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
-                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=new+york&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
-                            </iframe>
-                        </div>
-                        <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
-                        <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
-                        </style>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <!-- form fields -->
-                    <form>
-                        <input type="text" class="form-control form-control-lg" placeholder="Name">
-                        <input type="email" class="form-control mt-3" placeholder="Email">
-                        <input type="text" class="form-control mt-3" placeholder="Subject">
-                        <div class="mb-3 mt-3">
-                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
-                        </div>
-                    </form>
-                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
-                    
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- footer section-->
-    <footer id="footer">
-        <div class="container-fluid">
-            <!-- social media icons -->
-            <div class="social-icons mt-4">
-                <a href="https://instagram.com/arkhash0309" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/aadhavan-saravanakumar-880647263/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            </div>
-        </div>
-    </footer>
-
-    <!-- load javascript after loading all html content -->
-    <script src="script/script.js"></script>
-
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
+<!doctype html>
+<html lang="en" data-theme="dark" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Aadhavan Arkhash Saravanakumar — ML engineer and AI researcher. Selected projects, internship experience, and writing." />
+    <meta property="og:title" content="Aadhavan Arkhash Saravanakumar" />
+    <meta property="og:description" content="ML engineer and AI researcher. Selected projects, internship experience, and writing." />
+    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:type" content="website" />
+    <title>Aadhavan Arkhash Saravanakumar — AI & Data Science</title>
+    <script>
+      // Theme bootstrap (avoids FOUC)
+      (function () {
+        try {
+          var stored = localStorage.getItem('arkhash-theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = stored || (prefersDark ? 'dark' : 'light');
+          document.documentElement.classList.toggle('dark', theme === 'dark');
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {}
+      })();
+    </script>
+    <!-- SPA GitHub Pages redirect restore -->
+    <script type="text/javascript">
+      (function (l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search.slice(1).split('&').map(function (s) { return s.replace(/~and~/g, '&'); }).join('?');
+          window.history.replaceState(null, '', l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      })(window.location);
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
